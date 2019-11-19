@@ -1,0 +1,28 @@
+.contact-image {
+    z-index: -1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-text p{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -142px;
+    margin-right: 182px;
+    font-family: cursive;
+    font-size: 2vw;
+}
+
+.Contact{
+    padding-top: 200px;
+}
+
+@media screen and (max-width: 600px) {
+    .Contact img{
+        height: 360px;
+        width: 320px;
+    }
+    .contact-text p{
+        font-size: 4vw;
+    }
+}

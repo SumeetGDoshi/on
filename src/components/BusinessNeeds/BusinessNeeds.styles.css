@@ -1,0 +1,87 @@
+.Inside-Form .Input1{
+    padding: 18px;
+    border-radius: 23px;
+    /* padding: 10px 10px 10px 5px; */
+    /* border-radius: 50px; */
+    width: 216px;
+    background: none;
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+.Inside-Form {
+    margin-bottom: 7px;
+}
+
+.Inside-Form2 .Input2{
+    /* padding: 18px;
+    border-radius: 24px; */
+    /* background: none;
+    background-color: white;
+    border-color: black;
+    color: black; */
+    padding: 18px;
+    width: 218px;
+    border-radius: 24px;
+    /* padding: 10px 10px 10px 5px; */
+    /* border-radius: 50px; */
+    background: none;
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+
+.Whole-Form{
+    display: flex;
+    justify-content: center;
+}
+
+.Form{
+    padding-top: 55px;
+}
+
+.Form-Button{
+    /* display: flex; */
+
+    display: flex;
+    /* width: 60px; */
+    margin-bottom: 8px;
+}
+
+.Form-Button button{
+    /* border-radius: 15px;
+    background-color: tomato;
+    border-color: black;
+    cursor: pointer; */
+
+    border-radius: 15px;
+    width: 123px;
+    color: white;
+    background-color: aqua;
+    font-family: cursive;
+    cursor: pointer;
+    border-color: black;
+    /* border: black;*/
+}
+
+@media screen and (max-width: 600px) {
+ .Whole-Form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+ }
+}
+
+@media screen and (max-width: 600px) {
+        .Whole-Form .Form-Button{
+            display: flex;
+            
+    justify-content: center;
+    padding-top: 15px;
+        }
+     .Whole-Form .Form-Button button{
+        width: 165px;
+        padding: 12px;
+     }
+}
